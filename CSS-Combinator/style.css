@@ -1,0 +1,4 @@
+/* General Sibling Selector (~) */
+p ~ h1{
+    color: blueviolet;
+}
