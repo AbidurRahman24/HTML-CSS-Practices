@@ -1,4 +1,19 @@
 /* General Sibling Selector (~) */
-p ~ h1{
+/* p ~ h1{
+    color: blueviolet;
+} */
+
+
+/* Adjacent Sibling Selector (+) */
+/* p + h1 {
+    color: red
+} */
+
+/* Child Selector (>)*/
+/* .parent >.brother{
+    color: yellow
+} */
+/* Descendant Selector (space) */
+.parent .brother-son{
     color: blueviolet;
 }
