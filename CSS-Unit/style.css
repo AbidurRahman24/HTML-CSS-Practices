@@ -1,0 +1,10 @@
+/*
+Absolute Unit: px, mm, pt, pc, in, Q
+Relative Unit: em, rem, vh, vw, %
+*/
+.main{
+    font-size: 20px;
+}
+.description{
+    font-size: 2rem;
+}
