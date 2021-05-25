@@ -2,9 +2,16 @@
 Absolute Unit: px, mm, pt, pc, in, Q
 Relative Unit: em, rem, vh, vw, %
 */
-.main{
+/* .main{
     font-size: 20px;
 }
 .description{
     font-size: 2rem;
+} */
+.main__list{
+    font-size: 20px;
+}
+.main__list li{
+    font-size: 5rem;
+    /* font-size: 3em; */
 }
