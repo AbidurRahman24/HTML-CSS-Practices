@@ -27,7 +27,7 @@ ul li:hover ul.dropdown {
     display: block;
 }
 
-ul.dropdown__graphic__design{
+ul .dropdown__graphic__design{
     display:none;
     position: absolute;
     left: 100%;
