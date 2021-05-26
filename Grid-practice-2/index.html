@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .box{
+            font-size: 25px;
+            text-align: center;
+            
+            border: 1px solid goldenrod;
+            background-color: chocolate;
+        }
+        .box-1{
+            grid-row: 1/span 6;
+        }
+        .box-2{
+            grid-column: 2/ span 2;
+        }
+        /* jhankar Mahmud */
+        .container {
+            display: grid;
+            grid-gap: 30px 18px;
+            grid-template-columns: 250px 1fr 1fr;
+        }
+        
+        .article {
+            background-color: thistle;
+            text-align: center;
+        }
+        
+        .article-1 {
+            grid-row: 1/span 6;
+        }
+        
+        .article-2 {
+            grid-column: 2/ span 2;
+        }
+    </style>
+</head>
+<body>
+        <div class="grid">
+            <div class="box box-1">
+                <h3>1</h3>
+            </div>
+            <div class="box box-2">
+                <h3>2</h3>
+            </div>
+            <div class="box box-3">3</div>
+            <div class="box box">4</div>
+            <div class="box box">5</div>
+            <div class="box box">6</div>
+            <div class="box box">7</div>
+            <div class="box box">8</div>
+            <div class="box box">9</div>
+            <div class="box box">10</div>
+            <div class="box box">11</div>
+            <div class="box box">12</div>
+        </div>
+
+    <section class="container">
+        <article class="article article-1">
+            <h2>article-1</h2>
+        </article>
+        <article class="article article-2">
+            <h2>article-2</h2>
+        </article>
+        <article class="article article-3">
+            <h2>article-3</h2>
+        </article>
+        <article class="article article-4">
+            <h2>article-4</h2>
+        </article>
+        <article class="article article-5">
+            <h2>article-5</h2>
+        </article>
+        <article class="article article-6">
+            <h2>article-6</h2>
+        </article>
+        <article class="article article-7">
+            <h2>article-7</h2>
+        </article>
+        <article class="article article-8">
+            <h2>article-8</h2>
+        </article>
+        <article class="article article-9">
+            <h2>article-9</h2>
+        </article>
+        <article class="article article-10">
+            <h2>article-10</h2>
+        </article>
+        <article class="article article-11">
+            <h2>article-11</h2>
+        </article>
+        <article class="article article-12">
+            <h2>article-12</h2>
+        </article>
+        <article class="article article-13">
+            <h2>article-13</h2>
+        </article>
+        <article class="article article-14">
+            <h2>article-14</h2>
+        </article>
+        <article class="article article-15">
+            <h2>article-15</h2>
+        </article>
+    </section>
+</body>
+</html>
