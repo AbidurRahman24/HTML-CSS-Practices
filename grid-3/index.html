@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-3</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+        .blog{
+            background-color: rebeccapurple;
+            color: greenyellow;
+            padding: 25px;
+        }
+        .blog-1{
+            grid-column: 1/span 4;
+        }
+        .blog-4{
+            grid-row: 2/span 4;
+        }
+        .blog-3{
+            grid-row: 2/span 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="blog blog-1">1</div>
+        <div class="blog blog-2">2</div>
+        <div class="blog blog-3">3</div>
+        <div class="blog blog-4">4</div>
+        <div class="blog blog">5</div>
+        <div class="blog blog">6</div>
+        <div class="blog blog">7</div>
+        <div class="blog blog">8</div>
+        <div class="blog blog">9</div>
+        <div class="blog blog">10</div>
+        <div class="bog blog">1</div>
+        <div class="bog blog">2</div>
+        <div class="bog blog">3</div>
+    </div>
+</body>
+</html>
