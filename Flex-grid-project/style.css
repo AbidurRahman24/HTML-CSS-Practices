@@ -34,7 +34,7 @@ main{
 .player, .blog-details h3{
     margin-left: 10px;
 }
-p{
+.blog-details p{
     margin-left: 10px;
 }
 /* blogs stylesheet */
@@ -48,4 +48,27 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+}
+.courses{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px
+}
+.course{
+    margin-bottom: 30px ;
+}
+.course img{
+    width: 200px;
+}
+.filled{
+    color:goldenrod
+}
+.unfilled{
+    color:gray
+}
+.course-rating-duration{
+    display: flex;
+}
+.duration{
+    margin-left: 15px;
 }
