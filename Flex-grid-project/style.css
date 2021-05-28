@@ -72,3 +72,31 @@ main{
 .duration{
     margin-left: 15px;
 }
+@media (max-width: 480px) {
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-title{
+        margin: 0 auto;
+    }
+    .blog{
+        display:contents;
+        margin: 0 auto;
+    }
+    .player h3{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .players, .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+     .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        gri
+    }
+    .player h3{
+        margin-left: 10px;
+    
+    
+}
